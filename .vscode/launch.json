@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "JuegoGato",
+      "request": "launch",
+      "mainClass": "JuegoGato",
+      "projectName": "JuegoGato_5cff4c72"
+    },
+    {
+      "type": "java",
+      "name": "HolaMundo",
+      "request": "launch",
+      "mainClass": "HolaMundo",
+      "projectName": "JuegoGato_5cff4c72"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/asdco/Documents/GitHub/JuegoGato",
+      "program": "c:/Users/asdco/Documents/GitHub/JuegoGato/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
